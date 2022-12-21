@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+
+.title{
+  font-size: 2.7rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  padding: 5px 10px;
+  border: 1px solid blueviolet;
+  border-radius: 3px;
+  background-color: blueviolet;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.character{
+  background-color: blueviolet;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.character img {
+  border-radius: 5px 5px 0 0;
+}
+.span{
+  font-weight: bold;
+  color: black;
+}
